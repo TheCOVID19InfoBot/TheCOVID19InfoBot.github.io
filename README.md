@@ -1,1 +1,1 @@
-# thecovid19infobot
+# TheCOVID19InfoBot
