@@ -1,0 +1,36 @@
+.navbar { /*ul*/
+	position:fixed;
+	margin:0px;
+	top:0px;
+	background:#002D62;
+	padding:20px;
+	width:100vw;
+}
+.nav_logo {
+	width:auto;
+	height:40px;
+}
+.nav_title {
+	display:inline;
+	color:white;
+	padding-right:55px;
+}
+.navbar_li { /*li left*/
+	position:relative;
+	display:inline;
+	color:white;
+	background:#002D62;
+	padding:15px;
+	right:0px;
+	width:100px;
+}
+.navbar_li:hover {
+		background:grey;
+}
+.active_page{
+	text-decoration:underline;
+}
+a {
+	text-decoration:none;
+		color:white;
+}

@@ -1,0 +1,18 @@
+body {
+	margin:0;
+	/*background: rgb(0,212,255);
+	background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(40,219,255,1) 0%, rgba(227,56,241,1) 50%, rgba(92,227,255,1) 100%);*/
+}
+.TOS_title {
+	position:relative;
+	font-weight:bold;
+	color:black;
+	font-size:30px;
+	left:10px;
+}
+.tos_text {
+	position:relative;
+	color:black;
+	font-size:20px;
+	left:10px;
+}
