@@ -1,3 +1,28 @@
 body {
 	margin:0px;
 }
+.home_gradient {
+	position:absolute;
+	height:80vh;
+	width:100%;
+	z-index:-1;
+}
+.logo_left {
+	position:relative;
+	top:180px;
+	left:50px;
+	height:240px;
+	width:auto;
+}
+.Add_to_Discord_btn {
+	position:relative;
+	padding:13px;
+	background:black;
+	color:white;
+	font-size:30px;
+	border-radius:40px;
+	top:300px;
+	left:30px;
+	width:250px;
+	text-align:center;
+}

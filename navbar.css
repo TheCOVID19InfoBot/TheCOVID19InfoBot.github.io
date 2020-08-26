@@ -9,7 +9,7 @@ body{
 	padding:20px;
 	width:100vw;
 	overflow: hidden; /*prevent li elements from going outside of the list.*/
-	height:40px;
+	height:35px;
 	font-weight:bold;
 }
 .nav_logo {
@@ -25,7 +25,7 @@ body{
 	position:absolute;
 	display:inline;
 	color:white;
-	font-size:40px;
+	font-size:35px;
 	line-height:100%;
 	left:80px;
 }
@@ -34,12 +34,12 @@ body{
 	display:inline;
 	color:white;
 	background:Transparent;
-	padding:15px;
+	padding-left:15px;
+	padding-right:15px;
+	height:30px;
 	float:right;
 	right:30px;
 	font-size:25px;
-	margin-top:-10px; /*Use line-height later and absolute*/
-
 }
 .navbar_li:hover {
 		background:grey;
