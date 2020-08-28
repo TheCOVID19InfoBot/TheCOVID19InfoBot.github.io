@@ -5,42 +5,55 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="icon" href="logos/covidbotmthnobg.png" type="image/png"/>
-	
+
+	<link rel="stylesheet" type="text/css" href="navbar.css">
 	<link rel="stylesheet" type="text/css" href="tos_css.css">
+	
 </head>
 
 <body>
 
 <h1>Website for the COVID-19 Info Bot on Discord</h1>
 
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="team.html">Our Team</a></li>
-  <li><a href="tos.html">Terms of Service</a></li>
-  <li><a href="sources.html">Sources</a></li>
-</ul>
+<nav>
+	<ul class="navbar">
+		<li class="nav_logo"><a href="index.html"><img class="nav_logo" src="logos/covidbotmthnobg.png"></a></li>
+		<li class="nav_title"><a href="index.html">The COVID-19 Info Bot</a></li>
+		
+		<li class="navbar_li"><a href="sources.html">Sources</a></li>
+		<li class="active_page navbar_li"><a href="tos.html">Terms of Service</a></li>
+		<li class="navbar_li"><a href="team.html">Our Team</a></li>
+		<li class="navbar_li"><a href="index.html">Home</a></li>
+	</ul>
+</nav>
 
-<p class='TOS_title'>Terms of Service</p>
+<section class="tos_container">
+	<div>
+		<img class='tos_gradient' src='images/tos_gradient.png'>
+	</div>
 
-<div class="tos_text">
-	<p>We will not be liable for any harm that this bot may potentially cause.</p>
-	<p>We do not own the websites that we share, and if these websites were to ever be compromised, we will not be liable. Use our resources and news at your own risk. </p>
-	<p>By using and having this bot in your server, there may be risks involved, which include but are not limited to: you being hacked or your devices being harmed from the links we share.</p>
-	<p>No bot is 100% safe from being compromised, if this bot were to ever be compromised, we will not be liable for any damage that the compromisers may have done.</p>
-	<p>These terms may be changed without notice.</p>
+<div class="tos_text_container">
+	<p class='TOS_title'>Terms of Service</p>
+	<p class='tos_text'>We will not be liable for any harm that this bot may potentially cause.</p>
+	<p class='tos_text'>We do not own the websites that we share, and if these websites were to ever be compromised, we will not be liable. Use our resources and news at your own risk. </p>
+	<p class='tos_text'>By using and having this bot in your server, there may be risks involved, which include but are not limited to: you being hacked or your devices being harmed from the links we share.</p>
+	<p class='tos_text'>No bot is 100% safe from being compromised, if this bot were to ever be compromised, we will not be liable for any damage that the compromisers may have done.</p>
+	<p class='tos_text'>These terms may be changed without notice.</p>
 <div>
+</section>
 
-<p class='PP_title'>Privacy Policy</p>
-
-<div class="privacy_text">
-	<p>By using or having The COVID-19 Info Bot in your server, whether you have read these notices or not, you agree to the following data being stored.</p>
-	<p>Our bot stores the following data in its database: </p>
-	<li>Guild/Server IDs and names</li>
-	<li>User IDs and names</li>
-	<li>The time our bot joined a server and the time a user joins a server that the bot is in.</li>
-	<p>Note: This data is not shared with anyone else but our team. This data is necessary for research purposes for improving this bot.</p>
-	<p>If you have any further questions regarding our terms of services or what data we store or why we need it, please contact us at: <a href="mailto:thecovid19infobot@gmail.com">thecovid19infobot@gmail.com</a></p>
-<div>
+<section class="bottom_page">
+	<div class="privacy_text_container">
+		<p class='PP_title'>Privacy Policy</p>
+		<p class="privacy_text">By using or having The COVID-19 Info Bot in your server, whether you have read these notices or not, you agree to the following data being stored.</p>
+		<p class="privacy_text">Our bot stores the following data in its database: </p>
+		<li class="privacy_text">Guild/Server IDs and names</li>
+		<li class="privacy_text">User IDs and names</li>
+		<li class="privacy_text">The time our bot joined a server and the time a user joins a server that the bot is in.</li>
+		<p class="privacy_text">Note: This data is not shared with anyone else but our team. This data is necessary for research purposes for improving this bot.</p>
+		<p class="privacy_text">If you have any further questions regarding our terms of services or what data we store or why we need it, please contact us at: <a href="mailto:thecovid19infobot@gmail.com">thecovid19infobot@gmail.com</a></p>
+	</div>
+</section>
 
 </body>
 </html>

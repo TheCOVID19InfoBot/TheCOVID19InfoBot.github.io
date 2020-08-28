@@ -1,0 +1,13 @@
+.title {
+	text-align:center;
+	position:relative;
+	top:200px;
+	font-size:40px;
+}
+
+.our_team_container {
+	position:relative;
+	left:20px;
+	font-size:30px;
+	top:200px;
+}
