@@ -4,10 +4,227 @@
 	top:200px;
 	font-size:40px;
 }
-
+.teams_gradient {
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:100vh;
+	width:100%;
+	z-index:-1;
+}
+.m_o_t_text {
+	color:white;
+	font-size:50px;
+	position:relative;
+	top:80px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:underline;
+	text-underline-position: under;
+	text-align:left;
+	margin-left:60px;
+}
 .our_team_container {
 	position:relative;
-	left:20px;
-	font-size:30px;
-	top:200px;
+	top:100px;
+	display: grid;
+	grid-template-columns: auto auto; /*2 columns*/
+	grid-template-rows: auto auto; /*2 ROWS*/
+	gap:100px 10px; /*Vertical Horizontal*/
+}
+.person_box {
+	background:#04002D;
+	background:white;
+	width:600px;
+	height:250px;
+	border-radius:10px;
+	margin:0 auto;
+}
+.profile_pic {
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	border-style: solid;
+	border-color: black;
+	margin-top:25px;
+	margin-left:25px;
+	float:left;
+}
+.our_names {
+	position:relative;
+	color:black;
+	font-size:35px;
+	font-weight:bold;
+	left:50px;
+	top:20px;
+	float:left;
+}
+.our_roles {
+	position:relative;
+	color:black;
+	font-size:25px;
+	left:50px;
+	float:left;
+	top:-35px;
+	width:400px;
+}
+.social_media_links {
+	background:black;
+	position:relative;
+	height:60px;	
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	float:right;
+	width:100%;
+	top:0px;
+}
+.social_media_links_v4 {
+	background:black;
+	position:relative;
+	height:60px;	
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	float:right;
+	width:100%;
+	top:-29px;
+}
+.fab {
+	transform: scale(2.5);
+	margin:20px;
+	margin-left:0px;
+	margin-right:50px;
+	color:white;
+	float:right;
+	line-height:60px;
+}
+.fa-linkedin {color:white;}
+.fa-linkedin:hover {color:#2867B2;}
+.fa-github {color:white;}
+.fa-github:hover {color:#28FA35;}
+.fa-youtube {color:white;}
+.fa-youtube:hover {color:red;}
+.fa-soundcloud {color:white;}
+.fa-soundcloud:hover {color:orange;}
+.fa-twitter {color:white;}
+.fa-twitter:hover {color:#1DA1F2;}
+.fa-instagram {color:white;}
+.fa-instagram:hover {color:#cd486b;}
+
+@media only screen and (max-width: 1300px) {
+	.our_team_container {
+		position:relative;
+		top:100px;
+		display: grid;
+		grid-template-columns: auto; /*2 columns*/
+		grid-template-rows: auto auto auto auto; /*2 ROWS*/
+		gap:100px 10px; /*Vertical Horizontal*/
+	}
+	.teams_gradient {
+		position:absolute;
+		left:0px;
+		top:0px;
+		height:180vh;
+		width:100%;
+		z-index:-1;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.person_box {
+		width:550px;
+		height:200px;
+		border-radius:10px;
+		margin:0 auto;
+	}
+	.our_roles {
+		font-size:25px;
+		left:200px;
+		top:-75px;
+		width:400px;
+	}
+	.social_media_links {
+		height:60px;	
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		width:100%;
+		top:-40px;
+	}
+	.social_media_links_v4 {
+		height:60px;	
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		top:-65px;
+	}
+}
+
+@media only screen and (max-width: 610px) {
+	.m_o_t_text {
+		font-size:43px;
+		top:80px;
+		text-align:center;
+		margin-left:0px;
+	}
+	.teams_gradient {
+		position:absolute;
+		left:0px;
+		top:0px;
+		height:2200px;
+		width:100%;
+		z-index:-1;
+	}
+	.person_box {
+		width:95%;
+		height:360px;
+		border-radius:10px;
+		margin:0 auto;
+	}
+	.profile_pic {
+		width:120px;
+		height:120px;
+		border-radius:50%;
+		margin-top:none;
+		margin-left:none;
+		float:none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.our_names {
+		font-size:35px;
+		left:0px;
+		top:0px;
+		float:none;
+		text-align:center;
+	}
+	.our_roles {
+		font-size:25px;
+		left:0px;
+		float:none;
+		top:5px;
+		width:95%;
+		text-align:center;
+	}
+	.fab {
+		transform: scale(2.5);
+		margin:20px;
+		margin-left:0px;
+		margin-right:45px;
+		color:white;
+		float:right;
+		line-height:60px;
+		text-align:center;
+	}
+	.social_media_links {
+		height:60px;	
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		width:100%;
+		top:0px;
+	}
+	.social_media_links_v4 {
+		height:60px;	
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		top:0px;
+	}
 }

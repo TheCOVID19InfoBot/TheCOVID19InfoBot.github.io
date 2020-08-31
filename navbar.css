@@ -1,13 +1,13 @@
 body{
 	font-family:monospace;
 	margin:0;
-		overflow-x:hidden;
+	overflow-x:hidden;
 }
 .navbar { /*ul*/
 	position:fixed;
 	margin:0px;
 	top:0px;
-	background:#002D62;
+	background:#04002D;
 	padding:20px;
 	width:100vw;
 	overflow: hidden; /*prevent li elements from going outside of the list.*/
