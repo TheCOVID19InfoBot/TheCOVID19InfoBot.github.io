@@ -1,3 +1,6 @@
+body{
+	background:#333333;
+}
 .title {
 	text-align:center;
 	position:relative;
@@ -36,9 +39,11 @@
 	background:#04002D;
 	background:white;
 	width:600px;
-	height:250px;
+	height:240px;
 	border-radius:10px;
 	margin:0 auto;
+	margin-top:-20px;
+	margin-bottom:20px;
 }
 .profile_pic {
 	width:120px;
@@ -109,7 +114,16 @@
 .fa-twitter:hover {color:#1DA1F2;}
 .fa-instagram {color:white;}
 .fa-instagram:hover {color:#cd486b;}
-
+@media only screen and (max-height: 1300px) {
+	.teams_gradient {
+		position:absolute;
+		left:0px;
+		top:0px;
+		height:900px;
+		width:100%;
+		z-index:-1;
+	}
+}
 @media only screen and (max-width: 1300px) {
 	.our_team_container {
 		position:relative;
