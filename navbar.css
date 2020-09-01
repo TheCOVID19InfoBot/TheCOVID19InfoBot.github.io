@@ -63,3 +63,24 @@ a {
 		
 	
 	}
+	
+@media only screen and (max-width: 530px) {
+	.navbar {height:30px;}
+	.nav_logo {height:30px;}
+	.nav_title {font-size:30px;}
+}
+@media only screen and (max-width: 480px) {
+	.navbar {height:25px;}
+	.nav_logo {height:25px;}
+	.nav_title {font-size:25px;}
+}
+@media only screen and (max-width: 400px) {
+	.navbar {height:22px;}
+	.nav_logo {height:22px;}
+	.nav_title {font-size:22px;}
+}
+@media only screen and (max-width: 350px) {
+	.navbar {height:17px;}
+	.nav_logo {height:17px;}
+	.nav_title {font-size:17px;}
+}
