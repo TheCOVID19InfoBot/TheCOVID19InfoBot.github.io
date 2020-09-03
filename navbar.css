@@ -3,6 +3,11 @@ body{
 	margin:0;
 	overflow-x:hidden;
 }
+
+::-moz-selection { background: #333333; color:white;}
+::selection { background: #333333; color:white;}
+
+
 .navbar { /*ul*/
 	position:fixed;
 	margin:0px;

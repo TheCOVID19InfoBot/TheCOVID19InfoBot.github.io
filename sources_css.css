@@ -2,4 +2,26 @@
 	position:relative;
 	font-weight:bold;
 	font-size:40px;
+	text-align:center;
+	top:40px;
+}
+.works_cited_container {
+	position:relative;
+	top:40px;
+	width:95vw;
+	margin:0 auto;
+}
+.cites {
+	
+}
+
+.cites_text {
+	font-size:20px;
+}
+.source_link {
+	color:blue;
+	text-decoration: underline;
+}
+.source_link:hover {
+	text-decoration: none;
 }
