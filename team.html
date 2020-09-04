@@ -19,10 +19,13 @@
 	
 	<link rel="stylesheet" type="text/css" href="navbar.css">
 	<link rel="stylesheet" type="text/css" href="team_css.css">
+	
 	<script src="https://kit.fontawesome.com/ba7447c34f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
+<div class="TheResponsiveNavBarbackground" onclick="closebar()"></div>
 <nav>
 	<ul class="navbar">
 		<li class="nav_logo"><a href="index.html"><img class="nav_logo" src="logos/covidbotmthnobg.png"></a></li>
@@ -33,6 +36,19 @@
 		<li class="active_page navbar_li"><a href="team.html">Our Team</a></li>
 		<li class="navbar_li"><a href="index.html">Home</a></li>
 	</ul>
+	
+	<div class='mobile_responsive_navbar_close' id='responsive_mobile_navbar'>	
+		<div class='r_navbar_button_plus'>
+			<div class="off"><i class="fas fa-bars" id="plusbtn" onclick='navbarfunction()'></i></div>
+			<div class="on"><i class="fas fa-bars on"  id="plusbtnon" onclick='navbarfunctionclose()'></i></div>
+		</div>
+		<ul class="responsive_navbar">
+			<li class="active_page responsive_navbar_li"><a class="r_a_text" href="index.html">Home</a></li>
+			<li class="responsive_navbar_li"><a class="r_a_text" href="team.html">Our Team</a></li>
+			<li class="responsive_navbar_li"><a class="r_a_text" href="tos.html">Terms of Service</a></li>
+			<li class="responsive_navbar_li"><a class="r_a_text" href="sources.html">Sources</a></li>
+		</ul>
+	</div>
 </nav>
 
 <img class='teams_gradient' src="images/teams_gradient.png">
@@ -85,6 +101,7 @@
 </div>
 
 </body>
+<script src="r_nav_bar.js"></script>
 </html>
  
 
