@@ -86,7 +86,7 @@ a {
 		.mobile_responsive_navbar_close {
 			position:fixed;
 			display:block;
-			top:40vh;
+			top:35vh;
 			left:-340px;
 			z-index:999;
 			transition:0.7s;
@@ -95,7 +95,7 @@ a {
 		.mobile_responsive_navbar_open {
 			position:fixed;
 			display:block;
-			top:40vh;
+			top:35vh;
 			left:0px;
 			z-index:999;
 			transition:0.7s;
