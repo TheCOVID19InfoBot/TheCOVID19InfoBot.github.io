@@ -1,12 +1,6 @@
 body{
 	background:#333333;
 }
-.title {
-	text-align:center;
-	position:relative;
-	top:200px;
-	font-size:40px;
-}
 .teams_gradient {
 	position:absolute;
 	left:0px;
@@ -19,7 +13,7 @@ body{
 	color:white;
 	font-size:50px;
 	position:relative;
-	top:80px;
+	top:50px;
 	text-align:center;
 	font-weight:bold;
 	text-decoration:underline;
@@ -29,7 +23,7 @@ body{
 }
 .our_team_container {
 	position:relative;
-	top:100px;
+	top:60px;
 	display: grid;
 	grid-template-columns: auto auto; /*2 columns*/
 	grid-template-rows: auto auto; /*2 ROWS*/

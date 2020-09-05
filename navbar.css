@@ -61,15 +61,15 @@ body{
 	display:inline;
 	color:white;
 	background:Transparent;
-	padding-left:15px;
-	padding-right:15px;
+	padding-left:7.5px;
+	padding-right:7.5px;
 	height:30px;
 	float:right;
 	right:30px;
 	font-size:25px;
 }
 .navbar_li:hover {
-		background:grey;
+	color:#00AEEF;
 }
 .active_page{
 	text-decoration:underline;
