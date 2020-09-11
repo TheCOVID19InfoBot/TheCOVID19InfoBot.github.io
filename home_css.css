@@ -31,6 +31,12 @@
 	left:100px;
 	width:250px;
 	text-align:center;
+	transition:0.7s;
+}
+.Add_to_Discord_btn:hover {
+	background:#00AEEF;
+	transition:0.7s;
+	box-shadow: 1px 1px 2px transparent, 0 0 25px white, 0 0 5px white;
 }
 .Join_server_btn {
 	position:relative;
@@ -44,7 +50,14 @@
 	left:85px;
 	width:280px;
 	text-align:center;
+	transition:0.7s;
 }
+.Join_server_btn:hover {
+	background:#00AEEF;
+	transition:0.7s;
+	box-shadow: 1px 1px 2px transparent, 0 0 25px white, 0 0 5px white;
+}
+
 .home_text_right {
 	position:relative;
 	top:180px;
@@ -58,33 +71,68 @@
 .bottom_page {
 	position:relative;
 	min-height:100vh;
-	width:100%;
+	width:90%;
 	overflow-x:hidden;
+	margin: 0 auto;
 }
-.title {
+.commands_text {
+	font-size:40px;
 	font-weight:bold;
 	text-align:center;
-	font-size:30px;
+	margin-top:-10px;
+	margin-bottom:80px;
+	text-decoration:underline;
+	text-underline-position: under;
 }
-.commands_container {
+.command_showcase_container {
+	display:grid;
+	grid-template-columns: auto auto; /*2 columns*/
+	grid-template-rows: auto auto; /*2 ROWS*/
+	gap:20px 0px; /*Vertical Horizontal*/
 	position:relative;
-	left:20px;
+	justify-items: center;
+	align-items: center;
 }
-.commands_box{
-	position:relative;
-	display:flex;
-	flex-direction:row;
-	width:250px;
-	margin:10px;
-	left:40px;
-	background:#00AEEF;
-	border-radius:10px;
+.command_container {
+	background: #36393F;
+	height:auto;
+	width:600px;
+	border-radius:40px;
 }
-.commands_box_text {
+.right_move_up {
 	position:relative;
-	left:20px;
+}
+.right_move_up:nth-child(2) {top:-160px;} /*world*/
+.right_move_up:nth-child(4) {top:-320px;} /*cases <country>*/
+.right_move_up:nth-child(6) {top:-510px;} /*news*/
+.right_move_up:nth-child(8) {top:-700px;} /*preventions*/
+
+
+.command_name {
 	color:white;
-	font-size:20px;
-	font-weight:bold;
+	font-size: 35px;
 	text-align:center;
+}
+.about_command {
+	color:white;
+	font-size: 20px;
+	text-align:center;
+}
+.image_of_command {
+	position:relative;
+	width:95%;
+	height:auto;
+	border-radius: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:30px;
+}
+.bottom_page_gradient {
+	transform: rotate(180deg);
+	width:100vw;
+	height:800px;
+	position:absolute;
+	margin-top:-800px;
+	z-index:-1;
 }
