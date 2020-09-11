@@ -265,6 +265,28 @@
 	.bottom_page {
 		top:130px;
 	}
+	.command_showcase_container {
+		grid-template-columns: auto; /*2 columns*/
+		gap:20px 0px; /*Vertical Horizontal*/
+	}
+	.command_container {
+		height:auto;
+		width:630px;
+		border-radius:40px;
+	}
+	.video {
+		width:600px;
+	}
+	.right_move_up:nth-child(2) {top:0px;} /*world*/
+	.right_move_up:nth-child(4) {top:0px;} /*cases <country>*/
+	.right_move_up:nth-child(6) {top:0px;} /*news*/
+	.right_move_up:nth-child(8) {top:0px;} /*preventions*/
+	.right_move_up:nth-child(10) {top:0px;} /*preventions*/
+	
+	.bottom_page_gradient {
+		height:500px;
+		margin-top:-300px;
+	}
 }
 @media only screen and (max-width: 850px) { 
 	.home_gradient {
@@ -272,6 +294,18 @@
 	}
 	.bottom_page {
 		top:180px;
+	}
+	.command_container {
+		height:auto;
+		width:580px;
+		border-radius:40px;
+	}
+	.video {
+		width:560px;
+	}
+	.bottom_page_gradient {
+		height:800px;
+		margin-top:0px;
 	}
 }
 @media only screen and (max-width: 680px) { 
@@ -292,6 +326,18 @@
 	.bottom_page {
 		top:480px;
 	}
+	.command_container {
+		height:auto;
+		width:500px;
+		border-radius:40px;
+	}
+	.video {
+		width:480px;
+	}
+	.bottom_page_gradient {
+		height:500px;
+		margin-top:0px;
+	}
 }
 @media only screen and (max-width: 555px) {
 	.home_gradient {
@@ -300,13 +346,26 @@
 	.bottom_page {
 		top:400px;
 	}
+	.command_container {
+		height:auto;
+		width:400px;
+		border-radius:40px;
+	}
+	.video {
+		width:400px;
+		height:300px;
+	}
+	.bottom_page_gradient {
+		height:500px;
+		margin-top:0px;
+	}
 }
 @media only screen and (max-width: 455px) {
 	.home_gradient {
 		height:1280px;
 	}
 	.bottom_page {
-		top:400px;
+		top:500px;
 	}
 	.want_to {
 		font-size:30px;
@@ -327,6 +386,25 @@
 		top:170px;
 		width:280px;
 	}
+	.command_container {
+		height:auto;
+		width:350px;
+		border-radius:40px;
+	}
+	.video {
+		width:350px;
+		height:300px;
+	}
+	.bottom_page_gradient {
+		height:600px;
+		margin-top:0px;
+	}
+	.command_name {
+		font-size:28px;
+	}
+	.about_command {
+		font-size:20px;
+	}
 }
 @media only screen and (max-width: 390px) {
 	.logo_left{
@@ -336,5 +414,66 @@
 	}
 	.home_gradient {
 		height:1380px;
+	}
+	.command_container {
+		height:auto;
+		width:340px;
+		border-radius:40px;
+	}
+	.video {
+		width:340px;
+		height:280px;
+	}
+	.bottom_page_gradient {
+		height:600px;
+		margin-top:0px;
+	}
+	.command_name {
+		font-size:28px;
+	}
+	.about_command {
+		font-size:20px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.bottom_page {
+		top:400px;
+	}
+	.command_container {
+		height:auto;
+		width:320px;
+		border-radius:40px;
+	}
+	.video {
+		width:320px;
+		height:280px;
+	}
+	.bottom_page_gradient {
+		height:550px;
+		margin-top:0px;
+	}
+}
+@media only screen and (max-width: 355px) {
+	.bottom_page {
+		top:400px;
+	}
+	.command_container {
+		height:auto;
+		width:95%;
+		border-radius:20px;
+	}
+	.command_name {
+		font-size:24px;
+	}
+	.about_command {
+		font-size:18px;
+	}
+	.video {
+		width:95%;
+		height:auto;
+	}
+	.bottom_page_gradient {
+		height:550px;
+		margin-top:0px;
 	}
 }
