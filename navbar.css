@@ -67,9 +67,11 @@ body{
 	float:right;
 	right:30px;
 	font-size:25px;
+	transition:0.3s;
 }
 .navbar_li:hover {
 	color:#00AEEF;
+	transition:0.3s;
 }
 .active_page{
 	text-decoration:underline;
@@ -166,9 +168,11 @@ a {
 			font-size:25px;
 			color:white;
 			padding:10px;
+			transition:0.3s;
 		}
 		.r_a_text:hover {
 			color:#00AEEF;
+			transition:0.3s;
 		}
 	
 	}
