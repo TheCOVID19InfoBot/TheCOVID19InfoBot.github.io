@@ -80,6 +80,7 @@
 	width:90%;
 	overflow-x:hidden;
 	margin: 0 auto;
+	z-index:10;
 }
 .commands_text {
 	font-size:40px;
