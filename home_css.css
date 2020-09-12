@@ -73,6 +73,7 @@
 	font-size:white;
 	font-size:30px;
 	width:55%;
+	margin-bottom:300px;
 }
 .bottom_page {
 	position:relative;
@@ -436,9 +437,9 @@
 		font-size:20px;
 	}
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
 	.bottom_page {
-		top:400px;
+		top:450px;
 	}
 	.command_container {
 		height:auto;
