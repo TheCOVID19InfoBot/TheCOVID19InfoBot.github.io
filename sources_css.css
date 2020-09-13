@@ -50,7 +50,7 @@ body {
 	text-decoration: underline;
 }
 .source_link:hover {
-	text-decoration: none;
+	text-decoration: none; /*Removes the underline when a user hovers over a link*/
 }
 @media only screen and (max-width: 600px) { 
 	.works_cited_container {

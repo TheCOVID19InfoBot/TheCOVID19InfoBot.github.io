@@ -137,7 +137,6 @@ body{
 		z-index:-1;
 	}
 }
-
 @media only screen and (max-width: 700px) {
 	.person_box {
 		width:550px;
@@ -165,7 +164,6 @@ body{
 		top:-65px;
 	}
 }
-
 @media only screen and (max-width: 610px) {
 	.m_o_t_text {
 		font-size:43px;
