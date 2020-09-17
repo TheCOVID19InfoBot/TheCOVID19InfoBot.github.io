@@ -6,12 +6,11 @@ The COVID-19 Info Bot is a bot that provides daily updates and fast and reliable
 ## Links
 **Add The COVID-19 Info Bot to your server:** https://discord.com/oauth2/authorize?client_id=744391461113561228&permissions=18432&scope=bot
 
+**Enjoying our bot? Give us an upvote!:** https://discordbotlist.com/bots/the-covid-19-info-bot
+
 **Not sure if you want it in your server? Try it out in our server first!:** https://discord.gg/r4M4dbr 
 
-Here's a short demo video of the bot in action!  https://www.youtube.com/watch?v=AYMbxRRWwDA 
-
-
 ## For more information 
-
 </br>Website: [https://thecovid19infobot.github.io/](https://thecovid19infobot.github.io/)!
 </br>Email: [thecovid19infobot@gmail.com](mailto:thecovid19infobot@gmail.com)
+</br>Here's a short demo video of the bot in action!  https://www.youtube.com/watch?v=AYMbxRRWwDA 
