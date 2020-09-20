@@ -4,12 +4,15 @@
 
 ## 2. Switch to the permissions tab.
 
-## 3. In bot roles, add permission settings.
+## 3. Go to "ROLES/MEMBERS" and add a new role
 
-## 4. Choose bot roles. 
+## 4. In "ADD:", search for "The COVID-19 Info Bot", and click on it
 
-## 5. Disable the text permissions.
+## 5. Scroll down until you see "TEXT PERMISSIONS" and "Send Messages" 
 
-## 6. Make sure you save the changes. 
+## 6. Disable the text permissions.
 
-## 7. Repeat these steps for all roles the bot has.  
+## 7. Make sure you save the changes. 
+
+## 8. Does our bot have any other roles? Repeat these steps for all the roles that the bot has!
+
