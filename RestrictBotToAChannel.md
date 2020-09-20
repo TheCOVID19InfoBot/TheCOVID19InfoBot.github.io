@@ -4,7 +4,7 @@
 
 ## 2. Switch to the permissions tab.
 
-## 3. For bot roles, add permission settings.
+## 3. In bot roles, add permission settings.
 
 ## 4. Choose bot roles. 
 
