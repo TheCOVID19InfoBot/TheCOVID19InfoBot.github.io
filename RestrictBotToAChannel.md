@@ -1,5 +1,4 @@
-# Want to restrict our daily news and bot into a specific text channel? 
-# Check out the following steps below!
+# Want to restrict our daily news and bot into a specific text channel? Check out the following steps below!
 
 ## 1. Click on channel settings.
 ![channel settings](https://github.com/Donald-K-Lee/TheCOVID19InfoBot.github.io/blob/master/image%20for%20tutorial/channel%20settings.PNG)
