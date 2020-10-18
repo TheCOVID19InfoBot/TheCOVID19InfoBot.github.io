@@ -112,9 +112,9 @@
 }
 .right_move_up:nth-child(2) {top:-160px;} /*world*/
 .right_move_up:nth-child(4) {top:-320px;} /*cases <country>*/
-.right_move_up:nth-child(6) {top:-510px;} /*news*/
-.right_move_up:nth-child(8) {top:-700px;} /*preventions*/
-.right_move_up:nth-child(10) {top:-600px;} /*preventions*/
+.right_move_up:nth-child(6) {top:-310px;} /*news*/
+.right_move_up:nth-child(8) {top:-300px;} /*preventions*/
+.right_move_up:nth-child(10) {top:-300px;} /*preventions*/
 .command_name {
 	color:white;
 	font-size: 35px;
