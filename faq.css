@@ -1,0 +1,55 @@
+/*CSS for the accordion*/
+
+.italic {
+  font-style: italic;
+}
+.accordion {
+  background-color: Transparent;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+	font-family: Barlow Semi Condensed;
+	font-style: normal;
+	font-weight: normal;
+  font-size: 25px;
+  border-radius:25px;
+  line-height: 42px;
+  background: #333333;
+  color: white;
+  border: 2px solid #333333;
+}
+
+/*When the accordion is hovered on or is opened*/
+.active, .accordion:hover {
+  background-color: #FFFFFF;
+  color:black;
+  border: 2px solid black;
+}
+/*The plus and minus sign*/
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+/*If removed, the minus sign is gone, when the user clicks on the accordion, the "plus" sign is replaced with a "minus" sign.*/
+.active:after {
+  content: "\2212";
+}
+
+/*The thing that shows up when accordion is on*/
+.inside_accordion {
+  position:relative;
+  padding: 0 5px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
