@@ -1,3 +1,6 @@
+<!--<script>
+alert('Hello there! This website is still in progress and not yet responsive for most devices!');
+</script>-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,12 +14,12 @@
 
 	  gtag('config', 'UA-176945690-1');
 	</script>
-
+	
 	<!--SEO-->
-	<title>The COVID-19 Info Bot | Terms of Service</title>
-	<meta property="og:title" content="The COVID-19 Info Bot | Terms of Service">
+	<title>The COVID-19 Info Bot | FAQ</title>
+	<meta property="og:title" content="The COVID-19 Info Bot | FAQ">
 	<meta name="application-name" content="The COVID-19 Info Bot">
-	<meta name="title" property="og:title" content="The COVID-19 Info Bot | Terms of Service"> 	<!--Linkedin-->
+	<meta name="title" property="og:title" content="The COVID-19 Info Bot | FAQ"> 	<!--Linkedin-->
 
 	<meta name="description" content="Want to stay updated on COVID-19 and receive daily COVID-19 updates from Discord? Introducing the COVID-19 info bot! A Discord bot for COVID-19!"/>
 	<meta property="og:description" content="Want to stay updated on COVID-19 and receive daily COVID-19 updates from Discord? Introducing the COVID-19 info bot! A Discord bot for COVID-19!">
@@ -32,20 +35,16 @@
 	<link rel="apple-touch-icon" href="logos/covidbotmthnobg.png" type="image/png"/>
 <!--^^^-->
 	<!--^^^-->
-
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<link rel="icon" href="logos/covidbotmthnobg.png" type="image/png"/>
-
 	<link rel="stylesheet" type="text/css" href="navbar.css">
-	<link rel="stylesheet" type="text/css" href="tos_css.css">
-	
+	<link rel="stylesheet" type="text/css" href="faq.css">
+
 	<script src="https://kit.fontawesome.com/ba7447c34f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-<h1>Website for the COVID-19 Info Bot on Discord</h1>
 <div class="TheResponsiveNavBarbackground" onclick="closebar()"></div>
 <nav>
 	<ul class="navbar">
@@ -53,11 +52,10 @@
 		<li class="nav_title"><a href="index.html">The COVID-19 Info Bot</a></li>
 		
 		<li class="navbar_li"><a class='navbar_li' href="sources.html">Sources</a></li>
-		<li class="navbar_li"><a class='active_page navbar_li' href="tos.html">Terms of Service</a></li>
+		<li class="navbar_li"><a class='navbar_li' href="tos.html">Terms of Service</a></li>
 		<li class="navbar_li"><a class='navbar_li' href="team.html">Our Team</a></li>
-		<li class="navbar_li"><a class='navbar_li' href="index.html">Home</a></li>
+		<li class="navbar_li"><a class='active_page navbar_li' href="index.html">Home</a></li>
 	</ul>
-	
 	
 	<div class='mobile_responsive_navbar_close' id='responsive_mobile_navbar'>	
 		<div class='r_navbar_button_plus'>
@@ -65,41 +63,39 @@
 			<div class="on"><i class="fas fa-bars on"  id="plusbtnon" onclick='navbarfunctionclose()'></i></div>
 		</div>
 		<ul class="responsive_navbar">
-			<li class="responsive_navbar_li"><a class="r_a_text" href="index.html">Home</a></li>
+			<li class="active_page responsive_navbar_li"><a class="r_a_text" href="index.html">Home</a></li>
 			<li class="responsive_navbar_li"><a class="r_a_text" href="team.html">Our Team</a></li>
-			<li class="active_page responsive_navbar_li"><a class="r_a_text" href="tos.html">Terms of Service</a></li>
+			<li class="responsive_navbar_li"><a class="r_a_text" href="tos.html">Terms of Service</a></li>
 			<li class="responsive_navbar_li"><a class="r_a_text" href="sources.html">Sources</a></li>
 		</ul>
 	</div>
 </nav>
 
-<section class="tos_container">
-	<div>
-		<img class='tos_gradient' src='images/tos_gradient.png'>
-	</div>
 
-<div class="tos_text_container">
-	<p class='TOS_title'>Terms of Service</p>
-	<p class='tos_text'>We will not be liable for any harm that this bot may potentially cause.</p>
-	<p class='tos_text'>We do not own the websites that we share, and if these websites were to ever be compromised, we will not be liable. Use our resources and news at your own risk. </p>
-	<p class='tos_text'>By using and having this bot in your server, there may be risks involved, which include but are not limited to: you being hacked or your devices being harmed from the links we share.</p>
-	<p class='tos_text'>No bot is 100% safe from being compromised, if this bot were to ever be compromised, we will not be liable for any damage that the compromisers may have done.</p>
-	<p class='tos_text'>These terms may be changed without notice.</p>
-<div>
-</section>
+<!--Accordion start-->
+<button class="accordion">Example question?</button>
+<div class="inside_accordion">
+		<p>Hi</p>
+</div>
 
-<section class="bottom_page">
-	<div class="privacy_text_container">
-		<p class='PP_title'>Privacy Policy</p>
-		<p class="privacy_text">By using or having The COVID-19 Info Bot in your server, whether you have read these notices or not, you agree to the following data being stored.</p>
-		<p class="privacy_text">Our bot stores the following data in its database: </p>
-		<li class="privacy_text">Guild/Server IDs and names</li>
-		<li class="privacy_text">The time our bot joined the server.</li>
-		<p class="privacy_text">Note: This data is not shared with anyone else but our team. This data is necessary for research purposes for improving this bot.</p>
-		<p class="privacy_text">If you have any further questions regarding our terms of services or what data we store or why we need it, please contact us at: <a href="mailto:thecovid19infobot@gmail.com">thecovid19infobot@gmail.com</a></p>
-	</div>
-</section>
+<!--Accordion end-->
 
 </body>
 <script src="r_nav_bar.js"></script>
+<script>
+var faq_accordion = document.getElementsByClassName("accordion");
+var faq_status;
+
+for (faq_status = 0; faq_status < faq_accordion.length; faq_status++) {
+  faq_accordion[faq_status].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var accordion_container = this.nextElementSibling;
+    if (accordion_container.style.maxHeight) {
+      accordion_container.style.maxHeight = null;
+    } else {
+      accordion_container.style.maxHeight = accordion_container.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </html>
