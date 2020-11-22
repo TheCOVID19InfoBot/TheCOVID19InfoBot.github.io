@@ -49,6 +49,9 @@ body{
 	margin-left:25px;
 	float:left;
 }
+.invisible_person_box {
+	visibility:hidden;
+}
 .our_names {
 	position:relative;
 	color:black;
@@ -114,7 +117,7 @@ body{
 		position:absolute;
 		left:0px;
 		top:0px;
-		height:900px;
+		height:1300px;
 		width:100%;
 		z-index:-1;
 	}
@@ -132,12 +135,16 @@ body{
 		position:absolute;
 		left:0px;
 		top:0px;
-		height:180vh;
+		height:230vh;
 		width:100%;
 		z-index:-1;
 	}
 }
 @media only screen and (max-width: 700px) {
+	.m_o_t_text_lower {
+		position:relative;
+		margin-top:200px;
+	}
 	.person_box {
 		width:550px;
 		height:200px;
@@ -175,7 +182,7 @@ body{
 		position:absolute;
 		left:0px;
 		top:0px;
-		height:2200px;
+		height:2800px;
 		width:100%;
 		z-index:-1;
 	}
