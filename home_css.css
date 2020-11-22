@@ -144,7 +144,7 @@
 	width:100vw;
 	height:500px;
 	position:absolute;
-	margin-top:-500px;
+	margin-top:-300px;
 	z-index:-1;
 }
 @media only screen and (max-width: 1550px) { 
@@ -285,7 +285,7 @@
 	
 	.bottom_page_gradient {
 		height:500px;
-		margin-top:-300px;
+		margin-top:0px;
 	}
 }
 @media only screen and (max-width: 850px) { 
@@ -305,7 +305,7 @@
 	}
 	.bottom_page_gradient {
 		height:800px;
-		margin-top:0px;
+		margin-top:-250px;
 	}
 }
 @media only screen and (max-width: 680px) { 
