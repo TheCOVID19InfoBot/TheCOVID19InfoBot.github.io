@@ -51,10 +51,11 @@ alert('Hello there! This website is still in progress and not yet responsive for
 		<li class="nav_logo"><a href="index.html"><img class="nav_logo" src="logos/covidbotmthnobg.png"></a></li>
 		<li class="nav_title"><a href="index.html">The COVID-19 Info Bot</a></li>
 		
+		<li class="navbar_li"><a class='navbar_li active_page' href="faq.html">FAQ</a></li>
 		<li class="navbar_li"><a class='navbar_li' href="sources.html">Sources</a></li>
 		<li class="navbar_li"><a class='navbar_li' href="tos.html">Terms of Service</a></li>
 		<li class="navbar_li"><a class='navbar_li' href="team.html">Our Team</a></li>
-		<li class="navbar_li"><a class='active_page navbar_li' href="index.html">Home</a></li>
+		<li class="navbar_li"><a class='navbar_li' href="index.html">Home</a></li>
 	</ul>
 	
 	<div class='mobile_responsive_navbar_close' id='responsive_mobile_navbar'>	
@@ -63,21 +64,41 @@ alert('Hello there! This website is still in progress and not yet responsive for
 			<div class="on"><i class="fas fa-bars on"  id="plusbtnon" onclick='navbarfunctionclose()'></i></div>
 		</div>
 		<ul class="responsive_navbar">
-			<li class="active_page responsive_navbar_li"><a class="r_a_text" href="index.html">Home</a></li>
+			<li class="responsive_navbar_li"><a class="r_a_text" href="index.html">Home</a></li>
 			<li class="responsive_navbar_li"><a class="r_a_text" href="team.html">Our Team</a></li>
 			<li class="responsive_navbar_li"><a class="r_a_text" href="tos.html">Terms of Service</a></li>
 			<li class="responsive_navbar_li"><a class="r_a_text" href="sources.html">Sources</a></li>
+			<li class="responsive_navbar_li"><a class='r_a_text active_page' href="faq.html">FAQ</a></li>
 		</ul>
 	</div>
 </nav>
 
-
-<!--Accordion start-->
-<button class="accordion">Example question?</button>
-<div class="inside_accordion">
-		<p>Hi</p>
+<div>
+	<img class='faq_gradient' src='images/tos_gradient.png'>
 </div>
+	
+<p class='faq_title'>Frequently Asked Questions</p>
+<!--Accordion start-->
+<div class="accordion_container">
 
+	<button class="accordion accordion_text">Q: How can I make the bot send daily news to a specific channel?</button>
+	<div class="inside_accordion">
+		<p class="accordion_text">A: Our bot sends daily news to the first channel it has access to. You can restrict our bot from certain channels by following our <a class="faq_links" href="https://github.com/TheCOVID19InfoBot/TheCOVID19InfoBot.github.io/blob/master/RestrictBotToAChannel.md" target="_blank">guide</a>!</p>
+	</div>
+	
+	<button class="accordion accordion_text">Q: Where is the COVID-19 case data from?</button>
+	<div class="inside_accordion">
+		<p class="accordion_text">A: Data regarding COVID-19 cases are collected from <a class="faq_links" href="https://www.worldometers.info/coronavirus/" target="_blank">worldometers.info</a>.</p>
+	</div>
+	
+	
+	<button class="accordion accordion_text">Q: Who can I go to if I need help with the bot?</button>
+	<div class="inside_accordion">
+		<p class="accordion_text">A: If you need help with the bot, you can either join our <a class="faq_links" href="https://discord.gg/r4M4dbr" target="_blank">support server</a> on Discord, or email us at: <a class="faq_links" href="mailto:thecovid19infobot@gmail.com" target="_blank">thecovid19infobot@gmail.com</a></p>
+	</div>
+	
+	
+</div>
 <!--Accordion end-->
 
 </body>
