@@ -222,11 +222,12 @@ body{
 		transform: scale(2.5);
 		margin:20px;
 		margin-left:0px;
-		margin-right:45px;
+		margin-right:35px;
 		color:white;
 		float:right;
-		line-height:60px;
+		margin-top:25px;
 		text-align:center;
+		font-size:12px;
 	}
 	.social_media_links {
 		height:60px;	
